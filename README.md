@@ -24,7 +24,7 @@ The tool will display the following information:
 - Response time for the provided URL
 - CPU usage percentage
 - Memory usage percentage
-- Available disk space
+- Disk space used percentage
 - Network statistics (bytes sent and received)
 - Operating system update status
 
