@@ -8,23 +8,22 @@ from tabulate import tabulate
 
 def measure_system_response(url):
     try:
-        if url.startswith("http://") or url.startswith("https://"):
-            # Measure response time for websites or APIs
-            response = requests.get(url)
-            return response.elapsed.total_seconds() * 1000
-        elif url.count(".") == 3:
+        if url.count(".") == 3:
             # Measure response time for IP addresses
             response = requests.get(f"http://{url}")
             return response.elapsed.total_seconds() * 1000
-        elif url == "localhost" or url == "127.0.0.1" :
+        elif url == "localhost" or url == "127.0.0.1":
             # Measure response time for local hostname
             response = requests.get("http://localhost")
             return response.elapsed.total_seconds() * 1000
         else:
-            print("Invalid url type. Please enter a valid URL, IP address, or 'localhost'.")
+            # Assume it's a website or API URL
+            response = requests.get(f"http://{url}")
+            return response.elapsed.total_seconds() * 1000
     except requests.RequestException as e:
         print(f"Error measuring system response: {e}")
     return None
+
 
 
 
