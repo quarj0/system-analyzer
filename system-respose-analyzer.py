@@ -16,7 +16,7 @@ def measure_system_response(url):
             # Measure response time for IP addresses
             response = requests.get(f"http://{url}")
             return response.elapsed.total_seconds() * 1000
-        elif url == "localhost":
+        elif url == "localhost" or url == "127.0.0.1" :
             # Measure response time for local hostname
             response = requests.get("http://localhost")
             return response.elapsed.total_seconds() * 1000
