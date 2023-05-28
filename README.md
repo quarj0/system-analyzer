@@ -5,13 +5,16 @@ System Response Analyzer is a Python tool that measures the response time of a g
 
 ## Installation
 
+Cloning the Repo
+git clone https://github.com/hacks-and-codes/System-Response-Analyzer
+
 You can install System Response Analyzer using `pip`:
 pip install system-response-analyzer
 
 ## Usage
 
 To run System Response Analyzer, execute the following command in your terminal:
-system-response-analyzer
+python system-response-analyzer.py
 
 You will be prompted to enter the URL you want to measure the response time for.
 
@@ -27,13 +30,16 @@ The tool will display the following information:
 ## Examples
 
 Measure response time for a website:
-Enter the URL to measure response time: https://example.com
+Enter the URL to measure response time: example.com
 
 Measure response time for an IP address:
 Enter the URL to measure response time: 192.168.0.1
 
 Measure response time for the local host:
-Enter the URL to measure response time: localhos
+Enter the URL to measure response time: localhost
+
+Measure response time for the local host:
+Enter the URL to measure response time: 127.0.0.1
 
 
 ## Dependencies
