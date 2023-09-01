@@ -1,5 +1,4 @@
 LICENSE
-MANIFEST.in
 README.md
 setup.py
 system_response_analyzer.egg-info/PKG-INFO
