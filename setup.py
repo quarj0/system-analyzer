@@ -7,7 +7,7 @@ setup(
     author_email='owusuansahkwadwo24@email.com',
     description='System Response Analyzer Tool',
     long_description='A tool to measure system response time and check for OS updates.',
-    url='https://github.com/hacks-and-codes/system-response-analyzer',
+    url='https://github.com/qu4r0/system-response-analyzer',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
