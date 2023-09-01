@@ -1,16 +1,16 @@
 Metadata-Version: 2.1
 Name: system-response-analyzer
-Version: 1.0.0
+Version: 1.1.0
 Summary: System Response Analyzer Tool
-Home-page: https://github.com/hacks-and-codes/system-response-analyzer
-Author: Kwadwo Owusu Ansah
+Home-page: https://github.com/qu4r0/system-response-analyzer
+Author: OWUSU ANSAH K.
 Author-email: owusuansahkwadwo24@email.com
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: POSIX :: Linux
 Classifier: Operating System :: MacOS
-Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
@@ -18,5 +18,6 @@ Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Requires-Python: >=3.6
+License-File: LICENSE
 
 A tool to measure system response time and check for OS updates.

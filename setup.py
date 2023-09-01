@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='system-response-analyzer',
-    version='1.0.0',
-    author='Kwadwo Owusu Ansah',
+    version='1.1.0',
+    author='OWUSU ANSAH K.',
     author_email='owusuansahkwadwo24@email.com',
     description='System Response Analyzer Tool',
     long_description='A tool to measure system response time and check for OS updates.',
@@ -15,7 +15,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS',
-        'Programming Language :: Python :: 3',
+        'Operating System :: Microsoft :: Windows',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
