@@ -6,7 +6,8 @@ setup(
     author='OWUSU ANSAH K.',
     author_email='owusuansahkwadwo24@email.com',
     description='System Response Analyzer Tool',
-    long_description='A tool to measure system response time and check for OS updates.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/qu4r0/system-response-analyzer',
     packages=find_packages(),
     classifiers=[
@@ -22,7 +23,6 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
-        
     ],
     python_requires='>=3.6',
     install_requires=[
@@ -32,7 +32,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'system-response-analyzer=system_response_analyzer:main',
+            'system-response-analyzer=system_response_analyzer.main:main',
         ],
     },
 )
