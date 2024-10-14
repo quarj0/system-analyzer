@@ -8,7 +8,7 @@ setup(
     description='System Response Analyzer Tool',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/qu4r0/system-response-analyzer',
+    url='https://github.com/quarj0/system-response-analyzer',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
