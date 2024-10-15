@@ -4,8 +4,8 @@
 
 A Python-based tool for measuring system response times, checking OS updates, monitoring system metrics like CPU, memory, disk usage, and network traffic, as well as conducting network speed tests.
 
-![System Analyzer](./images/sysanalyzer.png)
-<img src="./images/sysanalyzer.png" alt="System Response" width="500"/>
+![System Analyzer](https://github.com/quarj0/system-analyzer/blob/main/sysanalyzer.png?raw=true)
+<img src="https://github.com/quarj0/system-analyzer/blob/main/sysanalyzer.png?raw=true" alt="System Response" width="500"/>
 
 ## Table of Contents
 
@@ -86,8 +86,8 @@ To use the **System Analyzer**, follow these steps:
   - Tool will generate logs for further usage.
   This is done with json and with in-depth details in the log file.
 
-![Generated system Analyzer log](https://github.com/quarj0/system-analyzer/blob/7b0420097ea35c566ee19cd52b542b8be6a6ac9f/sysanalyzerlog.png)
-<img src="./images/sysanalyzerlog.png" alt="System Response log" width="500"/>
+![Generated system Analyzer log](https://github.com/quarj0/system-analyzer/blob/main/sysanalyzerlog.png?raw=true)
+<img src="https://github.com/quarj0/system-analyzer/blob/main/sysanalyzerlog.png?raw=true" alt="System Response log" width="500"/>
 
 ### Network Speed Testing
 - The script will prompt whether you want to run a network speed test. You can choose 'yes' or 'no' as needed.
