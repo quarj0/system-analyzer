@@ -1,0 +1,11 @@
+2024-10-15 11:03:12,428:ERROR:Speedtest configuration error: HTTP Error 403: Forbidden
+2024-10-15 11:16:14,054:INFO:System Response Analyzer started.
+2024-10-15 11:16:14,054:INFO:Python version: 3.12.6
+2024-10-15 11:16:14,054:INFO:Operating System: Linux #1 SMP PREEMPT_DYNAMIC Kali 6.10.9-1kali1 (2024-09-09)
+2024-10-15 11:16:14,054:INFO:Machine: x86_64
+2024-10-15 11:16:14,055:INFO:Processor: 
+2024-10-15 11:16:14,055:INFO:Uptime: 8150.055744886398 seconds
+2024-10-15 11:23:46,073:INFO:System Response Analyzer started.
+2024-10-15 11:23:46,073:INFO:System Analyzr is running on Linux #1 SMP PREEMPT_DYNAMIC Kali 6.10.9-1kali1 (2024-09-09)
+2024-10-15 11:23:46,074:INFO:System Analyzr is running on x86_64 
+2024-10-15 11:23:46,074:INFO:System Analyzer is running on 4 CPU cores.
