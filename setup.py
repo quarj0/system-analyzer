@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='system-response-analyzer',
-    version='1.1.2',
+    version='2.0.0',
     author='OWUSU ANSAH K.',
     author_email='owusuansahkwadwo24@email.com',
     description='System Response Analyzer Tool',
