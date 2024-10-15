@@ -335,7 +335,7 @@ PyQt5_sip==12.15.0
 PyQt6==6.7.1
 PyQt6_sip==13.8.0
 pyqtgraph==0.13.7
-pyramid==2.0
+pyramid==2.0.2
 PySecretSOCKS==0.9.1
 pyserial==3.5
 pyserial-asyncio==0.6
