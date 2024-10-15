@@ -86,7 +86,7 @@ To use the **System Analyzer**, follow these steps:
   - Tool will generate logs for further usage.
   This is done with json and with in-depth details in the log file.
 
-![Generated system Analyzer log](./images/sysanalyzerlog.png)
+![Generated system Analyzer log](https://github.com/quarj0/system-analyzer/blob/7b0420097ea35c566ee19cd52b542b8be6a6ac9f/sysanalyzerlog.png)
 <img src="./images/sysanalyzerlog.png" alt="System Response log" width="500"/>
 
 ### Network Speed Testing
