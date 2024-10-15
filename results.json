@@ -1,22 +1,22 @@
 {
-    "cpu_usage": 2.4,
-    "memory_usage": 38.0,
+    "cpu_usage": 23.2,
+    "memory_usage": 33.7,
     "disk_usage": 71.4,
     "network_info": {
-        "kilobytes_sent": 142818.103515625,
-        "kilobytes_received": 955269.5537109375
+        "kilobytes_sent": 151188.3935546875,
+        "kilobytes_received": 939196.115234375
     },
     "system_info": {
         "OS": "Linux",
         "OS Version": "#1 SMP PREEMPT_DYNAMIC Kali 6.10.9-1kali1 (2024-09-09)",
         "Machine": "x86_64",
         "Processor": "Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz",
-        "Uptime": 20165.626503944397
+        "Uptime": 21548.519449949265
     },
     "speed_info": {
-        "Download Speed (Mbps)": 2.9837204940448907,
-        "Upload Speed (Mbps)": 2.9092383102401524
+        "Download Speed (Mbps)": 5.126807293380216,
+        "Upload Speed (Mbps)": 15.753760819641341
     },
-    "response_time": null,
+    "response_time": 920.935,
     "updates": false
 }

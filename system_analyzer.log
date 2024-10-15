@@ -29,3 +29,8 @@
 2024-10-15 14:36:19,012:INFO:User: quarjo
 2024-10-15 14:36:19,012:INFO:Platform: Linux-6.10.9-amd64-x86_64-with-glibc2.40
 2024-10-15 14:36:26,526:ERROR:Error measuring system response: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0449605c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-10-15 14:59:28,944:INFO:System Response Analyzer started.
+2024-10-15 14:59:28,944:INFO:Analyzer started at: Tue Oct 15 14:59:28 2024
+2024-10-15 14:59:28,944:INFO:Analyzer PID: 54105
+2024-10-15 14:59:28,944:INFO:User: quarjo
+2024-10-15 14:59:28,944:INFO:Platform: Linux-6.10.9-amd64-x86_64-with-glibc2.40
