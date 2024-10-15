@@ -8,9 +8,6 @@ A Python-based tool for measuring system response times, checking OS updates, mo
 <img src="https://github.com/quarj0/system-analyzer/blob/main/sysanalyzer.png?raw=true" alt="System Response" width="500"/>
 
 
->>>>>>> 3ed6a79 (added images of tool usage)
->>>>>>> d484c3a (added images)
-
 ## Table of Contents
 
 - [Installation](#installation)
