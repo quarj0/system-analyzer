@@ -4,6 +4,9 @@
 
 A Python-based tool for measuring system response times, checking OS updates, monitoring system metrics like CPU, memory, disk usage, and network traffic, as well as conducting network speed tests.
 
+![System Analyzer](./images/sysanalyzer.png)
+<img src="./images/sysanalyzer.png" alt="System Response Diagram" width="500"/>
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -79,6 +82,13 @@ To use the **System Analyzer**, follow these steps:
 
 4. Follow the on-screen instructions to get system metrics and network information.
 
+### Logging
+  - Tool will generate logs for further usage.
+  This is done with json and with in-depth details in the log file.
+![Generated system Analyzer log](./images/sysanalyzerlog.png.png)
+<img src="./images/sysanalyzerlog.png" alt="System Response Diagram" width="500"/>
+
+
 ### Network Speed Testing
 - The script will prompt whether you want to run a network speed test. You can choose 'yes' or 'no' as needed.
 
@@ -130,6 +140,3 @@ Contributions are welcome! Feel free to fork this repository, open issues, or su
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
-
-
-
