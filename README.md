@@ -87,7 +87,7 @@ To use the **System Analyzer**, follow these steps:
   This is done with json and with in-depth details in the log file.
 
 ![Generated system Analyzer log](./images/sysanalyzerlog.png)
-<img src="./images/sysanalyzerlog.png" alt="System Response Diagram" width="500"/>
+<img src="./images/sysanalyzerlog.png" alt="System Response log" width="500"/>
 
 ### Network Speed Testing
 - The script will prompt whether you want to run a network speed test. You can choose 'yes' or 'no' as needed.
