@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='system-response-analyzer',
+    name='system-analyzer',
     version='2.0.0', 
     author='OWUSU ANSAH KWADWO',
     author_email='owusuansahkwadwo24@email.com',
-    description='System Response Analyzer Tool',
+    description='System Analyzer Tool',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/quarj0/system-response-analyzer',
@@ -37,7 +37,7 @@ setup(
     license=open('LICENSE').read(),
     entry_points={
         'console_scripts': [
-            'system-response-analyzer=system_response_analyzer.main:main',
+            'system-analyzer=system_analyzer.main:main',
         ],
     },
 )

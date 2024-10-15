@@ -1,6 +1,6 @@
 
 
-# System-Response-Analyzer
+# System Analyser
 
 A Python-based tool for measuring system response times, checking OS updates, monitoring system metrics like CPU, memory, disk usage, and network traffic, as well as conducting network speed tests.
 
@@ -18,12 +18,12 @@ A Python-based tool for measuring system response times, checking OS updates, mo
 
 ## Installation
 
-To install System Response Analyzer, follow the steps below:
+To install System Analyzer, follow the steps below:
 
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/quarj0/system-response-analyzer
+git clone https://github.com/quarj0/system-analyzer
 ```
 
 ### Install Dependencies
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Alternatively, install the tool via `pip` after packaging:
 
 ```bash
-pip install system-response-analyzer
+pip install system-analyzer
 ```
 
 ## Features
@@ -67,13 +67,13 @@ pip install requests psutil tabulate
 
 ## Usage
 
-To use the **System Response Analyzer**, follow these steps:
+To use the **System Analyzer**, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies (see [Prerequisites](#prerequisites)).
 3. Run the script using the command:
    ```bash
-   python system-response-analyzer.py [URL]
+   python system-analyzer.py [URL]
    ```
    If no URL or IP address is provided, the tool will prompt you to enter one.
 
@@ -113,7 +113,7 @@ Do you want to run a network speed test? (yes/no): yes
 
 ## Dependencies
 
-The System Response Analyzer relies on the following libraries:
+The System Analyzer relies on the following libraries:
 
 - `psutil`: For gathering system-related information.
 - `requests`: For making HTTP requests to check response times.
