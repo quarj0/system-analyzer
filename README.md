@@ -5,7 +5,7 @@
 A Python-based tool for measuring system response times, checking OS updates, monitoring system metrics like CPU, memory, disk usage, and network traffic, as well as conducting network speed tests.
 
 
-<img src="https://github.com/quarj0/system-analyzer/blob/main/sysanalyzer.png?raw=true" alt="System Response" width="500"/>
+<img src="https://github.com/quarj0/system-analyzer/blob/main/sysanalyzer.png?raw=true" alt="System Analyzer" width="500"/>
 
 
 ## Table of Contents
