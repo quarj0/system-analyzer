@@ -1,7 +1,0 @@
-psutil
-requests
-tabulate
-speedtest-cli
-plyer
-cpuinfo
-colorama
