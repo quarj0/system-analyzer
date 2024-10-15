@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='system-response-analyzer',
-    version='2.0.0',
+    version='2.0.0', 
     author='OWUSU ANSAH KWADWO',
     author_email='owusuansahkwadwo24@email.com',
     description='System Response Analyzer Tool',
@@ -17,20 +17,15 @@ setup(
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS',
         'Operating System :: Microsoft :: Windows',
-        'Programming Language :: Python :: <=3.x',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
-    python_requires='>=3.x',
+    python_requires='>=3.6',  
     install_requires=[
-        'psutil',
-        'requests',
-        'tabulate',
-        'speedtest-cli',
-        'plyer',
-        'cpuinfo',
-        'colorama',
-        
-    ],
-    requires=[
         'psutil',
         'requests',
         'tabulate',
