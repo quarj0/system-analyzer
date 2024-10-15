@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='system-response-analyzer',
     version='2.0.0',
-    author='OWUSU ANSAH K.',
+    author='OWUSU ANSAH KWADWO',
     author_email='owusuansahkwadwo24@email.com',
     description='System Response Analyzer Tool',
     long_description=open('README.md').read(),
@@ -29,6 +29,11 @@ setup(
         'psutil',
         'requests',
         'tabulate',
+        'speedtest-cli',
+        'plyer',
+        'cpuinfo',
+        'colorama',
+        
     ],
     entry_points={
         'console_scripts': [

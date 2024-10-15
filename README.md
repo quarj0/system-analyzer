@@ -28,6 +28,7 @@ pip install system-response-analyzer
 - Monitor CPU and memory usage.
 - Monitor disk usage.
 - Monitor network traffic (KB sent and received).
+- Network Speed Testing
 
 ## Prerequisites
 - Python 3.x
@@ -45,7 +46,8 @@ pip install system-response-analyzer
 ## Getting Started
 1. When you run the script, it will prompt you to enter a URL or IP address to measure system response time if you didn't specify one as an argument.
 2. It will then check for available OS updates and ask if you want to update only if there are updates available.
-3. After that, it will display CPU and memory usage, disk usage, and network traffic metrics.
+3. Network Speed Testing Prompt
+4. After that, it will display CPU and memory usage, disk usage, and network traffic metrics.
 
 ## Examples
 

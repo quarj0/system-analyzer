@@ -1,2 +1,0 @@
-[console_scripts]
-system-response-analyzer = system_response_analyzer:main
