@@ -1,6 +1,8 @@
+
+
 # System-Response-Analyzer
 
-A Python script for measuring system response times, checking for OS updates, and monitoring system metrics.
+A Python-based tool for measuring system response times, checking OS updates, monitoring system metrics like CPU, memory, disk usage, and network traffic, as well as conducting network speed tests.
 
 ## Table of Contents
 
@@ -8,71 +10,126 @@ A Python script for measuring system response times, checking for OS updates, an
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
+- [Examples](#examples)
 - [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
 
-Cloning the Repo
-git clone https://github.com/hacks-and-codes/System-Response-Analyzer
+To install System Response Analyzer, follow the steps below:
 
-You can install System Response Analyzer using `pip`:
+### Cloning the Repository
+
+```bash
+git clone https://github.com/quarj0/system-response-analyzer
+```
+
+### Install Dependencies
+
+First, install the required dependencies using:
+
+```bash
 pip install -r requirements.txt
-pip install system-response-analyzer
+```
 
+Alternatively, install the tool via `pip` after packaging:
+
+```bash
+pip install system-response-analyzer
+```
 
 ## Features
-- Measure response time for a given URL or IP address.
-- Check for available OS updates and upgrade options.
-- Monitor CPU and memory usage.
-- Monitor disk usage.
-- Monitor network traffic (KB sent and received).
-- Network Speed Testing
+
+- **Response Time Measurement:** Measure response time for a given URL or IP address.
+- **OS Update Check:** Check for available OS updates and provide upgrade options.
+- **CPU & Memory Monitoring:** Track CPU and memory usage.
+- **Disk Monitoring:** Monitor disk usage.
+- **Network Monitoring:** Track network traffic (bytes sent and received).
+- **Network Speed Test:** Test internet connection speeds.
 
 ## Prerequisites
-- Python 3.x
-- Requests library (install via `pip install requests`)
-- Psutil library (install via `pip install psutil`)
-- Tabulate library (install via `pip install tabulate`)
+
+Before using this tool, ensure that you have the following:
+
+- Python 3.x installed.
+- The following Python libraries:
+  - `requests` (for making HTTP requests)
+  - `psutil` (for system information)
+  - `tabulate` (for pretty printing tables)
+
+To install these, you can run:
+
+```bash
+pip install requests psutil tabulate
+```
 
 ## Usage
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies (see Prerequisites section).
-3. Run the script by executing `python system_analyzer.py [URL]`.
-4. Follow the on-screen instructions.
+To use the **System Response Analyzer**, follow these steps:
 
-## Getting Started
-1. When you run the script, it will prompt you to enter a URL or IP address to measure system response time if you didn't specify one as an argument.
-2. It will then check for available OS updates and ask if you want to update only if there are updates available.
-3. Network Speed Testing Prompt
-4. After that, it will display CPU and memory usage, disk usage, and network traffic metrics.
+1. Clone the repository to your local machine.
+2. Install the required dependencies (see [Prerequisites](#prerequisites)).
+3. Run the script using the command:
+   ```bash
+   python system-response-analyzer.py [URL]
+   ```
+   If no URL or IP address is provided, the tool will prompt you to enter one.
+
+4. Follow the on-screen instructions to get system metrics and network information.
+
+### Network Speed Testing
+- The script will prompt whether you want to run a network speed test. You can choose 'yes' or 'no' as needed.
 
 ## Examples
 
-Measure response time for a website:
+### Measure response time for a website:
+```bash
 Enter the URL to measure response time: example.com
+```
 
-Measure response time for an IP address:
+### Measure response time for an IP address:
+```bash
 Enter the URL to measure response time: 192.168.0.1
+```
 
-Measure response time for the local host:
+### Measure response time for the local host:
+```bash
 Enter the URL to measure response time: localhost
+```
 
-Measure response time for the local host:
-Enter the URL to measure response time: 127.0.0.1
+### Network Speed Test Prompt:
+```bash
+Do you want to run a network speed test? (yes/no): yes
+```
+
+## Getting Started
+
+1. **Run the tool:** Start by running the script, optionally providing a URL/IP address.
+2. **Check OS updates:** The tool will automatically check for updates and notify you if any are available.
+3. **View metrics:** Once the tool runs, it will display system metrics like CPU usage, memory usage, disk space, network traffic, and more.
+4. **Speed test:** You’ll be prompted to test your network speed.
 
 ## Dependencies
 
-System Response Analyzer depends on the following Python packages:
+The System Response Analyzer relies on the following libraries:
 
-- requests
-- psutil
-- tabulate
+- `psutil`: For gathering system-related information.
+- `requests`: For making HTTP requests to check response times.
+- `tabulate`: For formatting and displaying the data.
+- `speedtest-cli`: For running network speed tests.
+- `plyer`: For notifications.
+- `cpuinfo`: For retrieving processor information.
+- `colorama`: For adding color to terminal output.
 
 ## Contributing
-Contributions are welcome! If you have suggestions, bug reports, or want to add new features, please open an issue or submit a pull request.
+
+Contributions are welcome! Feel free to fork this repository, open issues, or submit pull requests. Whether it's a bug fix, new feature, or improvement, your contribution will be appreciated.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
+
+
+
