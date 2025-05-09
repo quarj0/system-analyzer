@@ -1,7 +1,24 @@
 [project]
 name = "system-analyzer"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+description = "Your project description"
+authors = [{ name = "OWUSU ANSAH KWADWO" }]
+license = { text = "MIT" }
+dependencies = ["required-package1", "required-package2"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+scripts = { "system-analyzer" = "system_analyzer.main:main" }
+
+dynamic = ["license", "authors", "classifiers", "scripts"]
