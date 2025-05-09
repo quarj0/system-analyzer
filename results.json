@@ -1,0 +1,23 @@
+{
+    "cpu_usage": 16.2,
+    "memory_usage": 53.4,
+    "disk_usage": 37.1,
+    "network_info": {
+        "kilobytes_sent": 143020.72265625,
+        "kilobytes_received": 3338004.59765625
+    },
+    "system_info": {
+        "OS": "Linux",
+        "OS Version": "#1 SMP PREEMPT_DYNAMIC Kali 6.12.13-1kali1 (2025-02-11)",
+        "Machine": "x86_64",
+        "Processor": "Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz",
+        "Uptime": 86838.97978425026,
+        "Is Raspberry Pi": false
+    },
+    "speed_info": {
+        "Download Speed (Mbps)": 8.768035250075275,
+        "Upload Speed (Mbps)": 2.902770143673501
+    },
+    "response_time": 569.5559999999999,
+    "updates": false
+}
